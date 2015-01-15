@@ -1,0 +1,23 @@
+Tables	Form	Y_N	Reason
+TestR	3NF	N	not 2nf, K1->B	
+TestR	BCNF	N	not 3nf 	
+TestS	3NF	N	not 1nf, candidate Key not clean	
+TestS	BCNF	N	not 3nf	
+TestT	3NF	Y		
+TestT	BCNF	N	A->K2	
+yy1	3NF	N	A, B->C	
+yy1	BCNF	N	not 3nf 	
+yy2	3NF	N	not 1nf, candidate Key not clean	
+yy2	BCNF	N	not 3nf	
+yy3	3NF	N	A1->A2	
+yy3	BCNF	N	not 3nf 	
+yy4	3NF	N	not 1nf, candidate Key not clean	
+yy4	BCNF	N	not 3nf	
+yy5	3NF	N	not 2nf, P->A	
+yy5	BCNF	N	not 3nf 	
+yy6	3NF	N	A->B	
+yy6	BCNF	N	not 3nf 	
+yy7	3NF	N	A2->A1	
+yy7	BCNF	N	not 3nf 	
+yy8	3NF	N	C->D	
+yy8	BCNF	N	not 3nf 	
